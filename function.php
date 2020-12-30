@@ -15,14 +15,3 @@ $test2 = substr($pieces[0], 0, 1);
 echo $test2;
 
 
-// if(empty($pieces[4])){
-//     echo '配列はからです';
-// }else{
-//     echo '何か入ってます';
-// }
-
-// var_dump(empty($pieces[4]));
-// $test = substr($pieces[0], 0, 1);
-// echo $test;
-
-
