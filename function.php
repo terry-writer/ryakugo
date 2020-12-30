@@ -1,17 +1,12 @@
 <?php
 
-$bunsyou = 'This is a pen';
-$pieces = explode(" ", $bunsyou);
-
-$i = 0;
-while(empty($pieces[$i]) === true){
-    $test = substr($pieces[$i], 0, 1);
-    echo $test;
-    $i ++;
+function ryakugo($bunsyou){
+    $array = explode(" ", $bunsyou);
+    foreach ($array as $value) {
+        $value = substr($value, 0, 1);
+        print_r($value);
+    }
 }
 
-
-$test2 = substr($pieces[0], 0, 1);
-echo $test2;
 
 
