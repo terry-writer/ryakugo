@@ -11,7 +11,7 @@ function LinkingInitial($sentence){
         $shortened_form[] = substr($word, 0, 1);
     }
 
-    //$shortend_formの配列を文字列に変換する
+    //$shortend_formの配列を文字列に変換
     return implode($shortened_form);
 }
 
