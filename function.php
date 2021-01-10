@@ -1,6 +1,6 @@
 <?php
  //略語生成プログラム
-function LinkingInitial($sentence){
+function linkingInitial($sentence){
     //$shortend_formとして略語を入れる空の配列を作る
     $shortened_form =[];
     //$sentenceをスペースで区切り、$wordsに入れる
